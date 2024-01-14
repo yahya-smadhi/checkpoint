@@ -4,40 +4,48 @@
         <meta charset="UTF-8">
         <title>Contact</title>
         <link rel="icon" href="contact.png" />
+        <link rel="stylesheet" href="contact-style.css">
     </head>
     <body>
-        <h1><b>My Social_media Accounts</b></h1>
-        <nav>
-            <table border="5">
-                <tr>
-                    <th><h2><b>E-mail</b></h2></th>
-                    <th><h2><b>Facebook</b></h2></th>
-                    <th><h2><b>Instagram</b></h2></th>
-                    <th><h2><b>TikTok</b></h2></th>
-                </tr>
-                <tr>
-                    <td><h3>yemensmadhi@gmail.com</h3></td>
-                    <td><a href="https://www.facebook.com/people/Yahya-Smadhi/pfbid02bMpMv6K2AJbwzXn9iGaRaCNiGJA1U8QhKkWEDxhy5BEFHcJjhmADShx1k9PWPW21l/?mibextid=JRoKGi" target="_blank"><h3>@Yahya_Smadhi</h3></a></td>
-                    <td><a href="https://www.instagram.com/smadhi.yahya/?igsh=MXA1ZXZ6ZmZ6YTJsbg%3D%3D&utm_source=qr" target="_blank"><h3>@smadhi.yahya</h3></a></td>
-                    <td><a href="https://www.tiktok.com/@yahiasmadhi?_t=8ibD1kNV06Q&_r=1" target="_blank"><h3>@yahiasmadhi</h3></a></td>
-                </tr>
-            </table>
-        </nav>
-        <main>
-            <br>
-            <form>
-                <label>Leave a message for me </label>
-                <input type="text" placeholder="type anything you want">
-                <br> <br>
-                <button type="reset">Reset</button> <button type="submit">Submit</button>
-            </form>
-        </main>
-        <footer>
-            <ul type="square">
-                <li><a href="home.html">Home Page</a></li>
-            </ul>
-            <h4>Thank you for your attention</h4>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Oxygen480-emotes-face-smile-big.svg/2048px-Oxygen480-emotes-face-smile-big.svg.png" alt="smile" width="10%">
-        </footer>
+        <header>
+            <div class="nav">
+                <nav>
+                    <h1 class="logo">Portfolio</h1>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container">
+                <div class="mail">
+                    <h1>Get In Touch</h1>
+                    <br>
+                    <form>
+                        <input type="text" name="name" placeholder="  Name" id="name">
+                        <br>
+                        <input type="text" name="email" placeholder="  E-mail" id="email">
+                        <br>
+                        <input type="text" name="message" placeholder="  Message" id="message">
+                    </form>
+                    <button id="send">Send</button>
+                </div>
+                <div class="content">
+                    <div class="facebook">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/1200px-Facebook_f_logo_%282021%29.svg.png" id="fb">
+                        <a href="https://www.facebook.com/people/Yahya-Smadhi/pfbid02bMpMv6K2AJbwzXn9iGaRaCNiGJA1U8QhKkWEDxhy5BEFHcJjhmADShx1k9PWPW21l/?mibextid=JRoKGi" target="_blank">@Yahya_Smadhi</a>
+                    </div>
+                    <div class="instagram">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png" id="insta">
+                        <a href="https://www.instagram.com/smadhi.yahya/?igsh=MXA1ZXZ6ZmZ6YTJsbg%3D%3D&utm_source=qr" target="_blank">@smadhi.yahya</a>
+                    </div>
+                    <div class="TikTok">
+                        <img src="https://iconape.com/wp-content/files/fd/121669/svg/TikTok_Logo.svg" id="tiktok">
+                        <a href="https://www.tiktok.com/@yahiasmadhi?_t=8ibD1kNV06Q&_r=1" target="_blank">@yahiasmadhi</a>
+                    </div>
+                </div>
+            </div>
+        </header>
     </body>
 </html>
